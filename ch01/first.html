@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app = "firstApp">
+<head>
+	<title>First AngularJS App</title>
+</head>
+<body>
+	<div ng-controller="FirstController">
+		<span>Name: </span>
+		<input type="text" ng-model="first">
+			
+		<input type="text" ng-model="last">
+		<button ng-click="updataMessage()">Message</button>
+		<hr>
+		{{heading + message}}
+
+	</div>
+	<script type="text/javascript" src="js/angelar.js"></script>
+	<script type="text/javascript" src="first.js"></script>
+</body>
+</html>

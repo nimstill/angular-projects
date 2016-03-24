@@ -1,2 +1,2 @@
 # angular-projects
-a project for miself
+a project for myself
